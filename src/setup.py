@@ -17,5 +17,6 @@ class Setup:
         self.API_PORT = self.config.get("API_PORT", 8000)
         self.GROQ_KEY = self.config["GROQ_KEY"]
 
+
 setup = Setup()
 groq_agent = GroqAgent(groq_key=setup.GROQ_KEY)
