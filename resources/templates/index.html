@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Preview chat</title>
+    <link rel="stylesheet" href="http://localhost:8000/static/styles.css">
+</head>
+<body>
+    <content>
+        <section>
+            <container>
+                <div>
+                    <h1>Preview Chat</h1>
+                    <div id="messages"></div>
+                    <form id="chat-form">
+                        <input type="text" name="message" placeholder="Pergunte algo" autocomplete="off">
+                        <button id="send-button" type="submit">Send</button>
+                    </form>
+                        <p id="required-label">Mensagem obrigatória</p>
+                </div>
+            </container>
+        </section>
+    </content>
+    <script type="module" src="http://localhost:8000/static/main.js"></script>
+</body>
+</html>
